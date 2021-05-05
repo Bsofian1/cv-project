@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.App-text {
+  color: #61dafb;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -26,6 +33,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* Hover checkbox */
+
+.hover-list .hover-list--on {
+  display: none;
+}
+
+.hover-list:hover .hover-list--on {
+  display: inline;
 }
 
 @keyframes App-logo-spin {
