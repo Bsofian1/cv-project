@@ -6,7 +6,7 @@ import EducationalXp from "./components/EducationalXp";
 function App() {
   return (
     <div className="App">
-      <h1 className="App-text">Hello sofian blue</h1>
+      <h1 className="App-text">Welcome to my React resume</h1>
       <PersonalInfo />
       <EducationalXp />
       <Practical />
